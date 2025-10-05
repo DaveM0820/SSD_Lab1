@@ -1,0 +1,16 @@
+# Build artifacts & VS
+bin/
+obj/
+.vs/
+
+# User-specific
+*.user
+*.suo
+
+# Secrets
+secrets.json
+**/secrets.json
+
+# Publish profiles (optional to exclude)
+Properties/PublishProfiles/*.pubxml
+*.PublishSettings
